@@ -8,7 +8,7 @@ int main()
     int num;
     cout << "Please enter a number: ";
     cin >> num;
-    if (num > 0)
+    if (num > 0) //Used If and else if, as I knew it from earlier
     {
         cout << "Number is positive" << endl;
     }
