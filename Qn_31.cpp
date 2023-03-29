@@ -7,7 +7,7 @@ int main()
     int num;
     cout << "Enter the one digit number: ";
     cin >> num;
-    for (int i = 0; i < 6; i++)
+    for (int i = 0; i < 6; i++) //as i knew loops from c, i used it here, till now i find all same only syntex are different
     {
             for (int j = 0; j < 4; j++)
             {
