@@ -12,3 +12,5 @@ int main()
     printf("The sum of three numbers : %d\n", sum);  
     return(0);  
 }  
+
+//I find this codding new, so i saved it
