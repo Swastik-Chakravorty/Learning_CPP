@@ -18,12 +18,21 @@ int main()
     printf("Input the length of substring: ");
     scanf("%d", &end);
 
-    for (int i = (start - 1); i <= ((start + end) - 2); i++)
+//     for (int i = (start - 1); i <= ((start + end) - 2); i++)
+//     {
+//             str1[j] = str[i];
+//             j++;
+//     }
+//     str1[end] = '\0';
+    
+    //*** SAME AS ABOVE BUT SHORT***
+
+    while (j < end)
     {
-            str1[j] = str[i];
-            j++;
+        str1[j] = str[(start + j) -1];
+        j++;
     }
-    str1[end] = '\0';
+    str1[j] = '\0';
 
     printf("The substring retrieve from the string is: \"%s\"\n", str1);
     return 0;
