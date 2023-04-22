@@ -20,7 +20,7 @@ int main()
     {
         for (int j = i + 1; j < num; j++)
         {
-            if (str[i] > str[j])
+            if (strcmp(str[i], str[j]) > 0)
             {
                 strcpy(swap, str[i]);
                 strcpy(str[i], str[j]);
