@@ -13,7 +13,7 @@ int main()
     printf("Input the substring to be search: ");
     fgets(search, 50, stdin);
 
-    for (int i = 0; i <= ((strlen(str) - 1) - (strlen(search) - 1)); i++)
+    for (int i = 0; i <= (strlen(str) - strlen(search)); i++)
     {
         for (int j = i; j < (i + strlen(search) - 1); j++)
         {
