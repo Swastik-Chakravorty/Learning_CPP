@@ -24,6 +24,7 @@ int main()
             word[j][k] = str[i];
             k++;
         }
+        
         else
         {
             word[j][k] = '\0';
