@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     int n;
+    
     int count = 1;
     cout << "Enter the rows: ";
     cin >> n;
