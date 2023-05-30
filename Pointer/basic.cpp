@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int a = 3;
-    int* b = &a;
+    int* b = &a;//defining pointer variable 
 
     //& --> (Address of) operator
     cout << "The address of a is: " << &a << endl;
