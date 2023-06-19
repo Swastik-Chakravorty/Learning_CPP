@@ -17,7 +17,7 @@ int binarySearch(int arr[], int s, int e, int k)
     printBinary(arr, s, e);
     if (s > e)
         return -1;
-    int mid = s + (e - s) / 2;
+    int mid = (s + e) / 2;
     if (arr[mid] == k)
         return mid;
     
